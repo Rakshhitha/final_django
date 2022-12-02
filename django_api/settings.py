@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-rcv*@a17@8lv^fga4uc#*k#%8^o-l&2%r0-p9z5ni$p7+*(2$v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'employeeapp.apps.EmployeeappConfig'
+    'department_app'
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
